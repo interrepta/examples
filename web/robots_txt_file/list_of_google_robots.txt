@@ -1,0 +1,145 @@
+# Roboty
+
+## APIs-Google
+	
+Token klienta użytkownika 	APIs-Google
+Pełny ciąg znaków klienta użytkownika 	APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
+
+## AdsBot Mobile Web Android
+	
+
+Sprawdza jakość reklam na stronie internetowej na urządzeniu z Androidem.
+Token klienta użytkownika 	AdsBot-Google-Mobile
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)
+## AdsBot Mobile Web
+	
+
+Sprawdza jakość reklam na stronie internetowej na iPhonie.
+Token klienta użytkownika 	AdsBot-Google-Mobile
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)
+
+## AdsBot
+	
+
+Sprawdza jakość reklam na stronie internetowej na komputerze.
+Token klienta użytkownika 	AdsBot-Google
+Pełny ciąg znaków klienta użytkownika 	AdsBot-Google (+http://www.google.com/adsbot.html)
+
+## AdSense
+	
+Token klienta użytkownika 	Mediapartners-Google
+Pełny ciąg znaków klienta użytkownika 	Mediapartners-Google
+
+## Googlebot Image
+	
+Tokeny klienta użytkownika 	
+
+    Googlebot-Image
+    Googlebot
+
+Pełny ciąg znaków klienta użytkownika 	Googlebot-Image/1.0
+
+## Googlebot News
+	
+Tokeny klienta użytkownika 	
+
+    Googlebot-News
+    Googlebot
+
+Pełny ciąg znaków klienta użytkownika 	Klient użytkownika Googlebot-News używa różnych ciągów znaków klienta użytkownika Googlebota.
+
+## Googlebot Video
+	
+Tokeny klienta użytkownika 	
+
+    Googlebot-Video
+    Googlebot
+
+Pełny ciąg znaków klienta użytkownika 	Googlebot-Video/1.0
+
+## Komputerowy Googlebot
+	
+Token klienta użytkownika 	Googlebot
+Pełne ciągi znaków klienta użytkownika 	
+
+    Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+    Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/W.X.Y.Z Safari/537.36
+    Googlebot/2.1 (+http://www.google.com/bot.html)
+
+Googlebot indeksujący strony na smartfony
+	
+Token klienta użytkownika 	Googlebot
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+
+## Mobile AdSense
+	
+Token klienta użytkownika 	Mediapartners-Google
+Pełny ciąg znaków klienta użytkownika 	(Various mobile device types) (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)
+
+## Mobile Apps Android
+	
+
+Sprawdza jakość reklam na stronie aplikacji na Androida. Działa zgodnie z regułami dotyczącymi robota AdsBot-Google.
+Token klienta użytkownika 	AdsBot-Google-Mobile-Apps
+Pełny ciąg znaków klienta użytkownika 	AdsBot-Google-Mobile-Apps
+Moduł pobierania kanałów
+	
+Uwaga: moduł pobierania kanałów nie przestrzega reguł zawartych w pliku robots.txt.
+Token klienta użytkownika 	FeedFetcher-Google
+Pełny ciąg znaków klienta użytkownika 	FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
+
+## Google Read Aloud
+	
+Uwaga: Google Read Aloud nie przestrzega reguł zawartych w pliku robots.txt.
+Token klienta użytkownika 	Google-Read-Aloud
+Pełne ciągi znaków klienta użytkownika 	
+
+Obecnie używane klienty:
+
+    Klient na komputerze:
+    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/advanced/crawling/overview-google-crawlers)
+    Klient na urządzeniu mobilnym:
+    Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/advanced/crawling/overview-google-crawlers)
+
+Wcześniej używany klient (wycofany):
+
+## google-speakr
+
+## Google Duplex on the web
+	
+Uwaga: Duplex on the web może ignorować symbol wieloznaczny *.
+Token klienta użytkownika 	DuplexWeb-Google
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (Linux; Android 11; Pixel 2; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Mobile Safari/537.36
+
+## Google Favicon
+	
+Uwaga: w przypadku żądań zainicjowanych przez użytkownika Google Favicon ignoruje reguły w pliku robots.txt.
+Token klienta użytkownika 	
+
+    Googlebot-Image
+    Googlebot
+
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 
+
+## Google Favicon
+
+## Web Light
+	
+Uwaga: Web Light nie przestrzega reguł zawartych w pliku robots.txt.
+Token klienta użytkownika 	googleweblight
+Pełny ciąg znaków klienta użytkownika 	Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19
+
+## Google StoreBot
+	
+Token klienta użytkownika 	Storebot-Google
+Pełne ciągi znaków klienta użytkownika 	
+
+    Klient na komputerze:
+
+    Mozilla/5.0 (X11; Linux x86_64; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+    Klient na urządzeniu mobilnym:
+
+    Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36
+
+
+Źródło strony: https://developers.google.com/search/docs/advanced/crawling/overview-google-crawlers?hl=pl
