@@ -1,0 +1,3 @@
+"Plik robots.txt pozwala kontrolować dostęp robotów do plików w Twojej witrynie. Plik robots.txt znajduje się w katalogu głównym witryny. W przypadku witryny www.example.com plik robots.txt znajduje się pod adresem www.example.com/robots.txt. Ma on format zwykłego tekstu i jest zgodny ze standardem Robots Exclusion Protocol. Plik robots.txt zawiera co najmniej 1 regułę. Każda reguła blokuje lub umożliwia dostęp określonego robota do wskazanego pliku w domenie lub subdomenie, w której jest przechowywany plik robots.txt. Domyślnie wszystkie pliki mogą być skanowane, o ile nie określisz inaczej w pliku robots.txt. "
+
+Źródło tekstu: https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt
