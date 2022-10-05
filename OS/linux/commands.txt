@@ -1,0 +1,7 @@
+Polecenia terminalu w systemie Linuks
+
+
+
+## Sprawdzanie charset pliku: 
+
+file [nazwa_pliku] -i
