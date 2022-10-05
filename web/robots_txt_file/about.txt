@@ -14,4 +14,24 @@ Zasady dotyczące formatu i lokalizacji:
 
 "
 
+"
+
+Dodawanie reguł do pliku robots.txt
+
+Reguły to instrukcje wskazujące robotom, które części witryny mogą indeksować. Podczas dodawania reguł do pliku robots.txt postępuj zgodnie z tymi wskazówkami:
+
+- Plik robots.txt zawiera co najmniej 1 grupę.
+- Każda grupa składa się z wielu reguł lub dyrektyw (instrukcji), przy czym w 1 wierszu może znajdować się 1 dyrektywa. Każda grupa zaczyna się od wiersza User-agent, który określa cel grupy.
+- Grupa zawiera te informacje:
+-- do kogo ma zastosowanie grupa (do jakiego klienta użytkownika),
+-- do których katalogów lub plików klient użytkownika może uzyskać dostęp,
+-- do których katalogów lub plików klient użytkownika nie może uzyskać dostępu.
+- Roboty przetwarzają grupy od góry do dołu. Klient użytkownika jest dopasowywany tylko do 1 zestawu reguł – do pierwszej najmocniej sprecyzowanej grupy, która się do niego odnosi.
+- Z założenia klient użytkownika może indeksować wszystkie strony lub katalogi, które nie są zablokowane przy użyciu reguły disallow.
+- Wielkość liter w regułach jest rozróżniana. Na przykład reguła disallow: /file.asp ma zastosowanie do witryny https://www.example.com/file.asp, ale do witryny https://www.example.com/FILE.asp już nie.
+    Znak # oznacza początek komentarza.
+
+
+"
+
 Źródło tekstu: https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt

@@ -1,7 +1,12 @@
 Polecenia terminalu w systemie Linuks
 
 
-
 ## Sprawdzanie charset pliku: 
 
 file [nazwa_pliku] -i
+
+## Zmiana kodowania z us-ascii na utf8
+
+iconv -f us-ascii -t utf-16 file_us-ascii.txt > file_utf-16.txt
+
+iconv -f utf-16le -t utf-8 file_utf-16.txt > file_utf-8.txt
