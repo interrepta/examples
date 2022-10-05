@@ -1,0 +1,71 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ALSA (FFMPEG)
+
+Nagrywanie dźwięku przy użyciu mikrofonu USB o długości 5 sekund
+
+ffmpeg -f alsa -i plughw:CARD=MICROPHONE,DEV=0 -t 5 out.mp3
+
+To samo dla długości minuty i 30 sekund
+
+ffmpeg -f alsa -i plughw:CARD=MICROPHONE,DEV=0 -t 5 out.mp3
+
+################################
+
+Nagrywanie dźwięku. Wyjście - CTRL + C
+
+ffmpeg -f pulse -i default pulse4.flac
+
+################################
+
+Połączenie obrazka o nazwie obrazek.jpg i podkładku muzycznego o nazwie podklad.mp3
+w jeden plik wyjściowy o nazwie wyjscie.mp4
+
+ffmpeg -framerate 1 -loop 1 -i obrazek.jpg -i podklad.mp3 -vf format=yuv420p -r 10 -shortest -movflags +faststart wyjscie.mp4
+
+###############################
+
+Usuwanie wszystkich nieużywanych kerneli
+
+Metoda 1:
+
+sudo apt-get autoremove
+
+sudo update-grub
+
+Metoda 2:
+
+sudo dpkg --list 'linux-image*'|awk '{ if ($1=="ii") print $2}'|grep -v `uname -r`
+
+sudo apt-get purge linux-image-3.19.0-25-generic
+sudo apt-get purge linux-image-3.19.0-56-generic
+sudo apt-get purge linux-image-3.19.0-58-generic
+sudo apt-get purge linux-image-3.19.0-59-generic
+sudo apt-get purge linux-image-3.19.0-61-generic
+sudo apt-get purge linux-image-3.19.0-65-generic
+
+################################
+
+Filtr głosowy :)
+
+ffmpeg -i video.mp4 -af "asetrate=44100*1.5, aresample=44100, atempo=1/1.5" output.mp4
+
+################################
+
+Nagrywanie filmów z pulpitu z dźwiękiem
+
+ffmpeg -framerate 30 -video_size 1920x1080 -f x11grab -i :0.0 -f pulse -i default -c:v libx264 -b:v 5000k -maxrate 5000k -bufsize 10000k -g 60 -vf format=yuv420p -c:a aac -b:a 128k -f flv output.mp4
+
+################################
+
+Komendy instalacji pakietów w NPM:
+
+1. npm init
+2. npm i "nazwa_pakietu" lub npm install "nazwa_pakietu"
+
+################################
+
+firejail - piaskownica
+
+Uruchamianie:
+- firejail [nazwa-pakietu]
